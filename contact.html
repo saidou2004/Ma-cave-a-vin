@@ -1,0 +1,102 @@
+<!DOCTYPE HTML>
+<html lang="fr">
+ <head>
+
+	 	<meta charset="utf-8">
+	   <title>SFCV : contact</title>
+	     <link rel="stylesheet" href="st.css" type="text/css">
+
+ </head>
+
+
+ <body>
+
+	 <div id="entete"><!--­­TODO1­­-->
+	 <img src="logo.png" alt="logo">
+	 <br>
+	 <h1>SFCV</h1>
+	 <br>
+	 <h3>N°1 des caves a vins</h3>
+	 </div>
+	 <hr>
+
+	 <div id="menu"><!--TODO2-->
+	 <ul><!--aller de page en page-->
+	 	<li><a href="index.html" target="blank">Accueil</a></li>
+	 	<li><a href="produits.html" target="blank">Produits</a></li>
+	 	<li><a href="servic.html" target="blank">Services</a></li>
+	 	<li><a href="contact.html" target="blank">Contact</a></li>
+	 	<li><a href="mentions.html" target="blank">Mention l'egale</a></li>
+	 	<li><a href="perso.html" target="blank">Perso</a></li>
+ 	</ul>
+ 	</div>
+ 	<div id="bloc"> <!--todo3-->
+	<h2>Demande de catalogue</h2>
+
+	<p>Demandez-nous vite notre catalogue gratuit !
+	Il vous sera livré dans les meilleurs delais.</p>
+	<br>
+
+	<form method="post" enctype="text/plain" action="mailto:toutabene@gmail.com?subject=demande-de-catalogue">
+
+		<p><!-- tableau a choix-->
+			<label for="civilité">Civilité</label>
+			<select name="civilité" id="civilité">
+				<option value="M">M</option>
+				<option value="Mme">Mme</option>
+				<option value="animal sauvage">Soit l'un Soit l'autre</option>
+			</select>
+		</p>
+	
+
+	 	<p>
+	 		<label for="nom"> NOM :</label>
+	 		<input type="text" name="nom" id="nom" required>
+ 		</p>
+	
+
+		<p>
+			<label for="prenom"> PRENOM:</label>
+			<input type="text" name="prenom" id="prenom" required>
+		</p>
+
+	
+
+		<p>
+			<label for="adresse">ADRESSE</label>
+			<textarea name="adresse" id="adresse" required></textarea>
+		</p>
+	
+		<p>
+			<label for="ville">Ville:</label>
+			<input type="text" name="ville" id="ville" required>
+		
+	
+			<label for="code">Code postal:</label>
+			<input type="text" name="code" id="code" required>
+		</p>
+	
+
+		<p>
+			<input type="checkbox" name="news" id="news">
+			<label for="news">Je souhaite recevoir la newsletter</label>
+			
+
+			<label for="mail"> Couriel:</label>
+			<input type="email" name="mail" id="mail" > 
+		</p>
+	
+		<input type="submit" value="Envoyer"><!-- envoi du questionnaire-->
+	</form>
+		<p>
+			Ce site a fait l'objet d'une declaration aupres de la commission nationale informatique et liberté (CNIL). Conformement aux dispositions de la loi informatique et liberté du 6/01/1978, vous disposez d'un droit de modification, de destriction et d'opposition/suppression des données vous concernat, N'hésitez pas a prendre contact avec l"équipe SFCV. Nous répondrons a toutes vos questions sur l'aménagment de votre cave ou le choix de votre armoire a vin. Tous les conseils de preofessionnels pour conserver vos meilleurs vins en toutesécurité pour le plaisiere de les déguster en toute convivialité.
+		</p>
+		</div>
+		<hr>
+
+	 <div id="pied"><!--TODO4-->
+	 	<p>© SFCV -<a href="mentions.txt" target="blank">Mentions legales</a><p>
+	 	<p>L'abus d'alcool est dangeureux pour la santé,a consommer avec modération</p>
+	 </div>
+   </body>
+</html>
